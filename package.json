@@ -17,11 +17,15 @@
     "keywords": [],
     "author": "José Huaman",
     "license": "MIT",
+    "peerDependencies": {
+        "zod": "^3"
+    },
     "devDependencies": {
         "@changesets/cli": "^2.26.2",
         "@types/node": "^20.8.7",
         "tsup": "^7.2.0",
         "typescript": "^5.2.2",
-        "vitest": "^0.34.6"
+        "vitest": "^0.34.6",
+        "zod": "^3.22.4"
     }
 }
